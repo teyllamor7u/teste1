@@ -28,7 +28,8 @@ public class PersonQuerries {
     public PersonQuerries(){
         try{
             connection=DriveManager.getConnection(URL,USERNAME,PASSWORD)
-            selectAllPeople= connection.prepareStatement("SELECT *FROM AddressBook");
+            selectAllPeople= connection.prepareStatement("SELECT * FROM AddressBook");
+            selectPeopleByLastName.prepareStatement("SELECT * FROM AddressBook WHERE LastName=?");
             insertNewPerson= connection.prepareStatement("INSERT INTO AddressBook"+"(FistName, LastName, Email, PhoneNumber)"+"VALUES(?,?,?,?)");
         }
         catch(SQLException sqlException){
