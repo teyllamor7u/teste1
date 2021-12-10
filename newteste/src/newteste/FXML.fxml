@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="530.0" prefWidth="397.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="newteste.FXMLController">
+    <children>
+        <Label fx:id="label" layoutX="126" layoutY="120" minHeight="16" minWidth="69" />
+      <Label fx:id="l1" layoutX="32.0" layoutY="32.0" text="arroz  22R$" />
+      <Label fx:id="l2" layoutX="171.0" layoutY="32.0" text="feijão 15R$" />
+      <Label fx:id="l3" layoutX="300.0" layoutY="32.0" text="oleo 7 R$" />
+      <Label fx:id="l4" layoutX="32.0" layoutY="76.0" text="Labelaçúcar 16R$" />
+      <Label fx:id="l5" layoutX="171.0" layoutY="76.0" text="caixa de leite 33R$" />
+      <Label fx:id="l6" layoutX="300.0" layoutY="76.0" text="carne moida 27R$/kg" />
+      <TextField fx:id="txtotal" editable="false" layoutX="126.0" layoutY="125.0" />
+      <TextField fx:id="txnar" layoutX="87.0" layoutY="212.0" prefHeight="25.0" prefWidth="60.0" promptText="0" />
+      <TextField fx:id="txnol" layoutX="82.0" layoutY="262.0" prefHeight="25.0" prefWidth="60.0" promptText="0" />
+      <TextField fx:id="txnle" layoutX="82.0" layoutY="310.0" prefHeight="25.0" prefWidth="60.0" promptText="0" />
+      <TextField fx:id="txnfe" layoutX="270.0" layoutY="212.0" prefHeight="25.0" prefWidth="60.0" promptText="0" />
+      <TextField fx:id="txnac" layoutX="267.0" layoutY="265.0" prefHeight="25.0" prefWidth="60.0" promptText="0" />
+      <TextField fx:id="txcarg" layoutX="267.0" layoutY="310.0" prefHeight="25.0" prefWidth="60.0" promptText="0" />
+      <Label fx:id="l8" layoutX="18.0" layoutY="212.0" text="arroz" />
+      <Label fx:id="l10" layoutX="14.0" layoutY="269.0" text="oleo" />
+      <Label fx:id="l12" layoutX="15.0" layoutY="314.0" text="leite" />
+      <Label fx:id="l9" layoutX="216.0" layoutY="216.0" text="feijão" />
+      <Label fx:id="l11" layoutX="209.0" layoutY="266.0" text="açúcar" />
+      <Label fx:id="l13" layoutX="188.0" layoutY="314.0" text="carne moida" />
+      <Label fx:id="l14" layoutX="336.0" layoutY="314.0" text="g" />
+      <Button fx:id="bcal" layoutX="169.0" layoutY="440.0" mnemonicParsing="false" onAction="#calcular" text="calcular" />
+      <Label fx:id="l7" layoutX="49.0" layoutY="129.0" text="total a pagar" />
+    </children>
+</AnchorPane>
